@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgba(78, 160, 255, 255);
+  background-image: url(../img/pattern.png);
+  background-size: 450px;
+  height: 130px;
+}
+
+#logo {
+  height: 50%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+figure {
+  width: 100%;
+}
+
+.copertina_articolo {
+}
