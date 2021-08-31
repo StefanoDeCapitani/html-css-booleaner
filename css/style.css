@@ -4,24 +4,103 @@
   padding: 0;
 }
 
+header,
+main {
+  padding: 10px;
+}
+
 header {
   background: rgba(78, 160, 255, 255);
   background-image: url(../img/pattern.png);
-  background-size: 450px;
-  height: 130px;
+  background-size: 380px;
+  height: 95px;
+}
+
+.autore,
+.data_pubblicazione,
+h4 {
+  color: grey;
+}
+
+.autore {
+  font-size: 20px;
+}
+
+.data_pubblicazione {
+  font-size: 12px;
+  margin-bottom: 25px;
 }
 
 #logo {
-  height: 50%;
+  height: 60%;
+  margin-top: 30px;
 }
 
 h1 {
   font-size: 40px;
 }
 
-figure {
-  width: 100%;
+figcaption {
+  font-size: 12px;
 }
 
-.copertina_articolo {
+.paragrafo_articolo,
+ul,
+table,
+.consigliato {
+  margin: 15px 0;
+}
+
+.paragrafo_articolo,
+ul {
+  font-size: 15px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+span {
+  background: yellow;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: none;
+}
+
+thead {
+  text-align: left;
+  background: cornflowerblue;
+  color: white;
+}
+
+.riga_colorata {
+  background: lightblue;
+}
+
+.stretta {
+  width: 25%;
+}
+
+.sezione_consigliati {
+  margin-top: 25px;
+}
+
+.consigliato {
+  height: 150px;
+  width: 250px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#consigliato_1 {
+  background-image: url(../img/monitor.jpg);
+}
+
+#consigliato_2 {
+  background-image: url(../img/graph.jpg);
 }
